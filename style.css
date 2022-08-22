@@ -80,14 +80,14 @@ button{
 @media only screen and (min-width: 600px){
     .container{
         flex-direction: row;
-        height: 400px;
+        height: 430px;
     }
     .image{
         min-height: 100%;
         min-width: 50%;
     }
     .image img{
-        height: 400px;
+        height: 430px;
         object-fit: cover;
         border-radius: 10px 0px 0px 10px;
     }
@@ -101,5 +101,9 @@ button{
     }
     .perfume{
         margin-top: 24px;
+    }
+    body{
+        height: 100vh;
+        justify-content: center;
     }
 }
